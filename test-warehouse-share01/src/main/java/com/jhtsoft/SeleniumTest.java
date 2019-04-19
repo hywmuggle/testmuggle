@@ -19,7 +19,7 @@ public class SeleniumTest {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe");//chromedriver服务地址
         WebDriver driver =new ChromeDriver(); //新建一个WebDriver 的对象，但是new 的是FirefoxDriver的驱动
-        driver.get("http://118.31.237.82/system/login/login.jsp");//打开指定的网站
+        driver.get("http://localhost/system/login/login.jsp");//打开指定的网站
         driver.manage().window().maximize();//设置浏览器最大化
         try {
             /**
